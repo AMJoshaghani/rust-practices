@@ -2,4 +2,4 @@
 
 1. *Calculator*
 2. *Linear Regression*
-3. Coulomb's Force
+3. *Coulomb's force*
