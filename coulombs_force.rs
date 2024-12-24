@@ -45,7 +45,7 @@ mod vector {
             Vector3D {
                 x: s * self.x,
                 y: s * self.y,
-                z: s * self.z as f64
+                z: s * self.z
             }
         }
         pub fn magnitude(&self) -> f64 {
