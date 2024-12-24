@@ -49,7 +49,8 @@ mod vector {
             }
         }
         pub fn magnitude(&self) -> f64 {
-            ((self.x.powf(2.)) + (self.y.powf(2.)) + (self.z.powf(2.))).powf(0.5)
+            // ((self.x.powf(2.)) + (self.y.powf(2.)) + (self.z.powf(2.))).powf(0.5)
+            self.dot_product(self).powf(0.5) // |r| = sqrt( r . r )
         }
     }
 }
